@@ -1,0 +1,19 @@
+.search--form {
+  @apply flex justify-between items-center mb-6 w-full relative rounded-2xl shadow-lg shadow-light-shadow dark:shadow-none;
+}
+
+.search--icon {
+  @apply hidden sm:block absolute top-1/2 -translate-y-1/2 left-8 text-light-accent;
+}
+
+.search--input {
+  @apply px-8 pl-4 sm:pl-20 py-5 sm:py-6 rounded-2xl w-full text-base md:text-xl text-light-paragraph-100 placeholder:text-light-paragraph-100 dark:placeholder:text-dark-paragraph dark:bg-dark-box;
+}
+
+.search-error {
+  @apply absolute top-12 sm:top-1/2 -translate-y-1/2 right-32 sm:right-40 text-red-400 font-bold text-sm sm:text-base;
+}
+
+.search--button {
+  @apply absolute top-1/2 right-2.5 -translate-y-1/2 bg-light-accent hover:bg-light-accent/80 text-white font-bold h-48 sm:h-50 w-28 sm:w-32 rounded-2xl duration-200 transition-all;
+}

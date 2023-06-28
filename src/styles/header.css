@@ -1,0 +1,11 @@
+.header {
+  @apply flex items-center justify-between mb-8;
+}
+
+.header--logo {
+  @apply block text-2xl font-bold text-light-title dark:text-dark-paragraph;
+}
+
+.header--button-theme {
+  @apply flex items-center gap-3 uppercase text-light-paragraph-200 dark:hover:text-dark-paragraph hover:text-dark-background transition-all duration-200;
+}

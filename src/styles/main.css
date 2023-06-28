@@ -1,0 +1,8 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "home.css";
+@import "header.css";
+@import "search.form.css";
+@import "card.css";

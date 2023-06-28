@@ -1,0 +1,55 @@
+.card {
+  @apply p-6 sm:p-12 w-full rounded-2xl shadow-lg shadow-light-shadow dark:shadow-none bg-white dark:bg-dark-box;
+}
+
+.card--header {
+  @apply flex flex-col sm:flex-row sm:items-center md:items-start gap-4 sm:gap-12;
+}
+
+.card--header-image-container {
+  @apply w-24 sm:w-32 h-24 sm:h-32;
+}
+
+.card--header-image {
+  @apply w-full rounded-full;
+}
+
+.card--header-title-container {
+  @apply flex flex-col md:flex-row justify-between text-light-paragraph-200 dark:text-dark-paragraph;
+}
+
+.card--header-title {
+  @apply block text-xl lg:text-2xl text-light-title dark:text-dark-paragraph font-bold;
+}
+
+.card--header-date {
+  @apply mt-2 md:mt-0 text-sm lg:text-base;
+}
+
+.card--body {
+  @apply md:ml-44 mt-8 md:-mt-8 z-10;
+}
+
+.card--body-bio {
+  @apply mb-8 text-light-paragraph-100;
+}
+
+.card--body-box-information {
+  @apply flex px-4 sm:px-8 py-4 rounded-xl items-center justify-around bg-light-background dark:bg-dark-background;
+}
+
+.card--body-box-information-title {
+  @apply text-xs sm:text-sm marker:text-light-paragraph-100 dark:text-dark-paragraph;
+}
+
+.card--body-box-information-data {
+  @apply text-2xl font-bold text-light-title dark:text-dark-paragraph;
+}
+
+.card--body-links {
+  @apply grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 mt-8 text-sm sm:text-base;
+}
+
+.card--body-list {
+  @apply flex items-center gap-2;
+}

@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  @apply flex items-center justify-center h-screen px-4 bg-light-background dark:bg-dark-background transition-all duration-200;
+}
+
+.home--container {
+  @apply w-full sm:w-730;
+}
